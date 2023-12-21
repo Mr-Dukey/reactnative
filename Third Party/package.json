@@ -1,0 +1,17 @@
+{
+  "name": "third-party",
+  "version": "2.0.0",
+  "description": "To learn Third party and create server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lEarn"
+  ],
+  "author": "IDM",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
