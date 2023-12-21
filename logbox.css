@@ -1,0 +1,83 @@
+.login{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(1, 12, 61);
+    
+}
+.login-box{
+    position: relative;
+    border: 1px solid white;
+    width: 30%;
+    height: 55%;
+    top: 20%;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    animation: boxanimi 5s infinite;
+}
+@keyframes boxanimi{
+    50%{
+        box-shadow: 0px 0px 25px 10px white;
+    }
+}
+.logbox-head{
+    position: absolute;
+    top: 5%;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    text-align: center;
+}
+.loginp{
+    position: relative;
+    font-size: 18px;
+    width: 80%;
+}
+.btn{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* padding: 5px 200px; */
+}
+.alacc{
+    position: relative;
+    top: 50px;
+    font-size: 20px;
+}
+.alacc a{
+    text-decoration: none;
+}
+.comp{
+    display: none;
+    position: inherit;
+    color: aliceblue;
+}
+@media(max-width:992px){
+    .login-box{
+        width: 70%;
+    }
+}
+@media(max-width:768px){
+    .login-box{
+        width: 50%;
+    }
+}
+@media(max-width:547px){
+    .login-box{
+        width: 70%;
+        display: none;
+    }
+    .comp{
+        display: block;
+        color: aliceblue;
+    }
+}
+@media(max-width:447px){
+    .login-box{
+        width: 80%;
+    }
+}
